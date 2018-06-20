@@ -4,9 +4,12 @@ const swapper = (index1, index2, array) => {
 
 	const temp = array[index2];
 
+	array[index2] = array[index1];
 
+	array[index1] = temp;
 
-	console.log(temp);
+	console.log(array);
+
 }
 
 
