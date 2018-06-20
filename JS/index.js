@@ -2,7 +2,9 @@ console.log("Bubble Sort");
 
 const swapper = (index1, index2, array) => {
 
-	console.log("Swapper function", index1, index2);
+	const temp = array[index1];
+
+	console.log(temp);
 }
 
 
