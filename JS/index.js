@@ -2,7 +2,7 @@ console.log("Bubble Sort");
 
 
 const bubbleSort = (array) => {
-	array.forEach(num => console.log(num));
+	array.forEach((num, i) => console.log(num > array[i + 1])); 
 }
 
 
