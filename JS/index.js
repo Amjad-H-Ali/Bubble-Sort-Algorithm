@@ -5,7 +5,7 @@ console.log("Bubble Sort");
 const bubbleSort = (array) => {
 	// Compare each number with all numbers in array
 	for (let i = 0, len = array.length; i < len; i ++) {
-		for (let j = i+1, len = array.length; j < len; j ++) {
+		for (let j = 1; j < len; j ++) {
 			// If number is greater than proceeding number, swap.
 			if (array[i] > array[j]) {
 				swapper(i, j, array);
