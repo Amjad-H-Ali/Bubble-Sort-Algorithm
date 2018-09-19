@@ -1,15 +1,6 @@
 console.log("Bubble Sort");
 
 
-// Function that swaps two numbers in an array.
-const swapper = (index1, index2, array) => {
-	// Store smaller number.
-	const temp = array[index2];
-	// Swap smaller number with larger number
-	array[index2] = array[index1];
-	array[index1] = temp;
-};
-
 
 const bubbleSort = (array) => {
 	// Compare each number with all numbers in array
